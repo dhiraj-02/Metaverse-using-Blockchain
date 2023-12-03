@@ -1,0 +1,17 @@
+.floatcontainer{
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.floatchild{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+} 
+
+.container{
+    
+    height: 500px;
+    width: 100%;
+}

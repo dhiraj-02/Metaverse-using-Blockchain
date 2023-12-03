@@ -1,0 +1,156 @@
+
+.Ch{
+    padding: 2rem;
+    background-color: rgba(250, 235, 235, 0.25);
+    border-radius: .5rem;
+   
+    width: 120%;
+    height: 100%;
+    overflow-y: scroll;
+    
+    
+}
+
+.full{
+    height: 200%;
+    width: 100%;
+}
+.Chat_box{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 50vh;
+    width: 300px;
+    margin:  0 auto;
+    overflow-y: scroll;
+}
+
+.Chat_box_right p,
+.Chat_box_left p{
+    background-color: #f182035b;
+    padding: 1rem;
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    position: relative;
+}
+
+.Chat_box_left_title{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+.Chat_box_send_img{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Chat_box_send_img input{
+    width: 100%;
+    background-color: #f182035b;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    color: #f18203;
+    border-radius: .5rem;
+}
+
+.Chat_user_info{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    line-height: 1;
+}
+
+.Chat_user_info_box h4,
+.Chat_user_info_box p{
+    line-height: 0;
+}
+
+@media only screen and (max-width: 35em) {
+    .Chat{
+        padding: 1rem;
+    }
+
+    .Chat p{
+        font-size: .8rem;
+    }
+    .Chat small{
+        font-size: .8rem;
+    }
+
+    .show{
+        display: none;
+    }
+}
+
+.container{
+    height: 600px;
+    width: 70%;
+    float:left;
+    background-color: rgb(240, 240, 240);
+   padding: 0px;
+    
+}
+
+.chat {
+    border: 2px solid #dfdada;
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 0px;
+    padding-right: 5px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    
+
+  }
+
+
+
+  .chat1 {
+    border: 2px solid #dfdada;
+    background-color: #b2ecb4;
+    padding-left: 5px;
+    padding-right: 0px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    
+
+
+  }
+
+
+  .chatp {
+    border: 2px solid #dfdada;
+    background-color: #f9eeee;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    
+
+  }
+.right{
+    margin-left: auto;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    background-color: rgb(8, 6, 6);
+    height: 1000px;
+    width: 30%;
+}
+
+.but{
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding: 3px 6px;
+    border-radius: 5px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
